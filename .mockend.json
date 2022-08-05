@@ -1,57 +1,31 @@
 {
-  "User": [
-  {
-    "id": 1,
-    "name": "MCCO4rrQ3h",
-    "online": false,
-    "picture": "https://picsum.photos/seed/03/60/60"
-  },
-  {
-    "id": 2,
-    "name": "kIfSa6kPqH",
-    "online": true,
-    "picture": "https://picsum.photos/seed/71/60/60"
-  },
-  {
-    "id": 3,
-    "name": "mVF6AYhDmy",
-    "online": false,
-    "picture": "https://picsum.photos/seed/65/60/60"
-  },
-  {
-    "id": 4,
-    "name": "4SREPIfWZS",
-    "online": false,
-    "picture": "https://picsum.photos/seed/97/60/60"
-  },
-  {
-    "id": 5,
-    "name": "tVESZv0yA4",
-    "online": true,
-    "picture": "https://picsum.photos/seed/62/60/60"
-  },
-  {
-    "id": 6,
-    "name": "ckk0rDNSH0",
-    "online": true,
-    "picture": "https://picsum.photos/seed/22/60/60"
-  },
-  {
-    "id": 7,
-    "name": "WYZV0ihpQI",
-    "online": true,
-    "picture": "https://picsum.photos/seed/07/60/60"
-  },
-  {
-    "id": 8,
-    "name": "94gmGECwM3",
-    "online": true,
-    "picture": "https://picsum.photos/seed/73/60/60"
-  },
-  {
-    "id": 9,
-    "name": "hSidpJf82a",
-    "online": false,
-    "picture": "https://picsum.photos/seed/96/60/60"
+  "User": {
+    "name": {
+      "string": {}
+    },
+    "avatarUrl": {
+      "regexp": "https://i\\.pravatar\\.cc/150\\?u=[0-9]{5}"
+    },
+    "statusMessage": {
+      "string": [
+        "working from home",
+        "watching Netflix"
+      ]
+    },
+    "email": {
+      "regexp": "#[a-z]{5,10}@[a-z]{5}\\.[a-z]{2,3}"
+    },
+    "color": {
+      "regexp": "#[0-9A-F]{6}"
+    },
+    "age": {
+      "int": {
+        "min": 21,
+        "max": 55
+      }
+    },
+    "isPublic": {
+      "boolean": {}
+    }
   }
-]}
+}
