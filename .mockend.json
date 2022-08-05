@@ -1,4 +1,5 @@
-[
+{
+  "User": [
   {
     "id": 1,
     "name": "MCCO4rrQ3h",
@@ -53,4 +54,4 @@
     "online": false,
     "picture": "https://picsum.photos/seed/96/60/60"
   }
-]
+]}
